@@ -118,7 +118,6 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-transparent"></div>
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <Badge className="mb-4 bg-primary/20 text-primary hover:bg-primary/30">Academic Security Project</Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Cybersecurity Threat Analysis & Attack Simulation
             </h1>
