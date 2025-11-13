@@ -125,9 +125,6 @@ export default function Home() {
               A comprehensive security assessment of a modern e-commerce platform, identifying critical vulnerabilities, demonstrating realistic attack scenarios, and proposing effective mitigation strategies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
-                View Full Report <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
               <Link href="/vulnerabilities">
                 <a>
                   <Button size="lg" variant="outline">
