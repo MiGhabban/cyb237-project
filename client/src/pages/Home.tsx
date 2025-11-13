@@ -92,10 +92,7 @@ export default function Home() {
             </div>
             <div className="font-bold text-lg">CYB 237</div>
           </div>
-          <nav className="hidden md:flex gap-8">
-            <button onClick={() => setActiveTab("overview")} className="text-sm hover:text-primary transition-colors">Overview</button>
-            <button onClick={() => setActiveTab("vulnerabilities")} className="text-sm hover:text-primary transition-colors">Vulnerabilities</button>
-            <button onClick={() => setActiveTab("attacks")} className="text-sm hover:text-primary transition-colors">Attacks</button>
+          <nav className="hidden md:flex gap-8"
             <Link href="/threat-modeling">
               <a className="text-sm hover:text-primary transition-colors">Threat Modeling</a>
             </Link>
@@ -108,7 +105,6 @@ export default function Home() {
             <Link href="/report">
               <a className="text-sm hover:text-primary transition-colors">Report</a>
             </Link>
-            <button onClick={() => setActiveTab("mitigation")} className="text-sm hover:text-primary transition-colors">Mitigation</button>
           </nav>
         </div>
       </header>
